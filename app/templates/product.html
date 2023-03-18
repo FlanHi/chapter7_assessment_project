@@ -16,17 +16,11 @@
                 {{ form.pro_desc. label }}<br>
                 {{ form.pro_desc(size=32) }}
             </p>
-
-            <label for="exampleFormControlSelect1">In Stock</label>
+            <p>
+                {{ form.stock. label }}<br>
+                {{ form.stock }}
+            </p>
             <br>
-                <select class="form-control" id="exampleFormControlSelect1" style="width: 10%; height: 30px; display: inline-block;">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                </select>
-                <br>
 
             <p>
                 {{ form.submit() }}
